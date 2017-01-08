@@ -35,7 +35,7 @@ before_action :find_doc, only: [:show, :edit, :update, :destroy]
     end
 
     def destroy
-      @docs.destroy
+      @doc.destroy
       redirect_to docs_path
     end
 
